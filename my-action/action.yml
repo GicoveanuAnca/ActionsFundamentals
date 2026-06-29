@@ -1,0 +1,12 @@
+name: Say Hi!
+description: Say hi and save time
+author: Anca
+
+inputs:
+  time:
+    description: "the time we were friendly"
+
+runs:
+  using: docker
+  image: Dockerfire
+  args: 
