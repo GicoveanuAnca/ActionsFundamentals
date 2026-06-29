@@ -1,7 +1,6 @@
-name: Say Hi - Docker Actions!
-description: Say hi and save time
-author: Anca
-
+name: 'Say Hi - Docker Actions!'
+description: 'Say hi and save time'
+author: 'Anca'
 inputs:
   who-to-greet:
     description: 'Who to greet'
@@ -10,7 +9,6 @@ inputs:
 outputs:
   time:
     description: 'The time we said hello.'
-
 runs:
   using: docker
   image: Dockerfire
